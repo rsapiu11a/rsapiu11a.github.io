@@ -1,4 +1,3 @@
-```md
 ---
 title: Boosting Productivity with Vim
 date: 2024-04-10
@@ -23,4 +22,3 @@ This reduces cognitive load dramatically.
 ```vim
 dd        " delete line
 ciw       " change inner word
-:%s/foo/bar/g
