@@ -39,7 +39,7 @@ async function renderPost() {
   document.getElementById('title').textContent = post.title;
   document.getElementById('date').textContent = formatDate(post.date);
 
-  const md = await fetch(`posts/${slug}.md`).then(r=>r.text());
+  const md = await fetch(`posts/${post.file}?v=${Date.now()}`).then(r => r.text());
   const html = marked.parse(md, { headerIds: true });
 
   const content = document.getElementById('content');
