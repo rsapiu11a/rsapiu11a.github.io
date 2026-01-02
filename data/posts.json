@@ -2,16 +2,11 @@
   {
     "slug": "static-typing",
     "title": "The Power of Static Typing in Programming",
-    "date": "2024-04-07"
+    "date": "2024-04-07",
+    "file": "static-typing.md"
   },
   {
     "slug": "vim-productivity",
-    "title": "Boosting Productivity with Vim",
-    "date": "2024-04-10",
-    "file": "vim-productivity.md"
-  },
-  {
-    "slug": "vim-productivity copy",
     "title": "Boosting Productivity with Vim",
     "date": "2024-04-10",
     "file": "vim-productivity.md"

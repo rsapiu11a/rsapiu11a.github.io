@@ -16,7 +16,7 @@ async function renderPost() {
   document.getElementById('title').textContent = post.title;
   document.getElementById('date').textContent = formatDate(post.date);
 
-  const res = await fetch(`/posts/${post.file}?v=${Date.now()}`);
+  const res = await fetch(`posts/${post.file}?v=${Date.now()}`);
   let md = await res.text();
 
   // safety: auto-close broken code fences
