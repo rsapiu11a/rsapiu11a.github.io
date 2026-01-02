@@ -3,7 +3,7 @@ function getParam(name) {
 }
 
 async function getPosts() {
-  return fetch('data/posts.json').then(r => r.json());
+  return fetch(`data/posts.json?v=${Date.now()}`).then(r => r.json());
 }
 
 function formatDate(d) {
